@@ -1,0 +1,410 @@
+{
+  "jev": {
+    "total": 1532,
+    "attempted": 1532,
+    "valid_latest": 1532,
+    "attempt_count": 1534,
+    "failed_attempts": 2,
+    "correct": 1299,
+    "accuracy": 0.847911227154047,
+    "first_attempt_accuracy": 0.8466057441253264,
+    "macro_group_accuracy": 0.8504334381648715,
+    "majority_baseline": 0.5783289817232375,
+    "class_recall": {
+      "supported": 0.7461300309597523,
+      "unsupported": 0.9221218961625283
+    },
+    "prediction_counts": {
+      "Correct": 551,
+      "Incorrect": 792,
+      "Unknown": 189
+    },
+    "multiclass_brier": 0.22635949547429887,
+    "clipped_nll": 0.4280215959922226,
+    "zero_target_probability_count": 4,
+    "ece_10_bins": 0.058513727351847435,
+    "calibration_bins": [
+      {
+        "low": 0.0,
+        "high": 0.1,
+        "n": 0,
+        "mean_probability": null,
+        "accuracy": null
+      },
+      {
+        "low": 0.1,
+        "high": 0.2,
+        "n": 0,
+        "mean_probability": null,
+        "accuracy": null
+      },
+      {
+        "low": 0.2,
+        "high": 0.3,
+        "n": 0,
+        "mean_probability": null,
+        "accuracy": null
+      },
+      {
+        "low": 0.3,
+        "high": 0.4,
+        "n": 2,
+        "mean_probability": 0.375,
+        "accuracy": 1
+      },
+      {
+        "low": 0.4,
+        "high": 0.5,
+        "n": 32,
+        "mean_probability": 0.4509375,
+        "accuracy": 0.625
+      },
+      {
+        "low": 0.5,
+        "high": 0.6,
+        "n": 64,
+        "mean_probability": 0.5466650883838384,
+        "accuracy": 0.609375
+      },
+      {
+        "low": 0.6,
+        "high": 0.7,
+        "n": 95,
+        "mean_probability": 0.6488112706007443,
+        "accuracy": 0.5263157894736842
+      },
+      {
+        "low": 0.7,
+        "high": 0.8,
+        "n": 129,
+        "mean_probability": 0.7524031007751938,
+        "accuracy": 0.6356589147286822
+      },
+      {
+        "low": 0.8,
+        "high": 0.9,
+        "n": 189,
+        "mean_probability": 0.8510229276895943,
+        "accuracy": 0.7777777777777778
+      },
+      {
+        "low": 0.9,
+        "high": 1.0,
+        "n": 1021,
+        "mean_probability": 0.9767572888532732,
+        "accuracy": 0.9392752203721841
+      }
+    ],
+    "selective_risk": [
+      {
+        "threshold": 0,
+        "n": 1532,
+        "coverage": 1.0,
+        "error_rate": 0.152088772845953
+      },
+      {
+        "threshold": 0.5,
+        "n": 1498,
+        "coverage": 0.9778067885117493,
+        "error_rate": 0.14753004005340453
+      },
+      {
+        "threshold": 0.7,
+        "n": 1339,
+        "coverage": 0.8740208877284595,
+        "error_rate": 0.11277072442120986
+      },
+      {
+        "threshold": 0.9,
+        "n": 1018,
+        "coverage": 0.664490861618799,
+        "error_rate": 0.05893909626719057
+      },
+      {
+        "threshold": 0.95,
+        "n": 860,
+        "coverage": 0.5613577023498695,
+        "error_rate": 0.05465116279069768
+      }
+    ],
+    "probability_count": 1532,
+    "renormalized_probability_count": 14,
+    "latency_count": 1532,
+    "latency_p50_s": 0.5402513124999968,
+    "latency_p95_s": 0.6980539160000044,
+    "event_brier": 0.11317974773714944,
+    "raw_event_brier": 0.11320319843342036
+  },
+  "laya-typed-decisions": {
+    "total": 1532,
+    "attempted": 1532,
+    "valid_latest": 1532,
+    "attempt_count": 1532,
+    "failed_attempts": 0,
+    "correct": 956,
+    "accuracy": 0.6240208877284595,
+    "first_attempt_accuracy": 0.6240208877284595,
+    "macro_group_accuracy": 0.6276311448178166,
+    "majority_baseline": 0.5783289817232375,
+    "class_recall": {
+      "supported": 0.6795665634674922,
+      "unsupported": 0.5835214446952596
+    },
+    "prediction_counts": {
+      "Correct": 808,
+      "Incorrect": 176,
+      "Unknown": 548
+    },
+    "multiclass_brier": 0.4665997209440599,
+    "clipped_nll": 0.6722304016920699,
+    "zero_target_probability_count": 0,
+    "ece_10_bins": 0.1064975484949311,
+    "calibration_bins": [
+      {
+        "low": 0.0,
+        "high": 0.1,
+        "n": 0,
+        "mean_probability": null,
+        "accuracy": null
+      },
+      {
+        "low": 0.1,
+        "high": 0.2,
+        "n": 0,
+        "mean_probability": null,
+        "accuracy": null
+      },
+      {
+        "low": 0.2,
+        "high": 0.3,
+        "n": 0,
+        "mean_probability": null,
+        "accuracy": null
+      },
+      {
+        "low": 0.3,
+        "high": 0.4,
+        "n": 15,
+        "mean_probability": 0.3818548298503483,
+        "accuracy": 0.26666666666666666
+      },
+      {
+        "low": 0.4,
+        "high": 0.5,
+        "n": 114,
+        "mean_probability": 0.4566903502079035,
+        "accuracy": 0.41228070175438597
+      },
+      {
+        "low": 0.5,
+        "high": 0.6,
+        "n": 162,
+        "mean_probability": 0.5515321688857105,
+        "accuracy": 0.47530864197530864
+      },
+      {
+        "low": 0.6,
+        "high": 0.7,
+        "n": 290,
+        "mean_probability": 0.6537631771847077,
+        "accuracy": 0.5448275862068965
+      },
+      {
+        "low": 0.7,
+        "high": 0.8,
+        "n": 357,
+        "mean_probability": 0.7538052133918841,
+        "accuracy": 0.6414565826330533
+      },
+      {
+        "low": 0.8,
+        "high": 0.9,
+        "n": 482,
+        "mean_probability": 0.8509909042091642,
+        "accuracy": 0.7448132780082988
+      },
+      {
+        "low": 0.9,
+        "high": 1.0,
+        "n": 112,
+        "mean_probability": 0.9208760015179297,
+        "accuracy": 0.7321428571428571
+      }
+    ],
+    "selective_risk": [
+      {
+        "threshold": 0,
+        "n": 1532,
+        "coverage": 1.0,
+        "error_rate": 0.37597911227154046
+      },
+      {
+        "threshold": 0.5,
+        "n": 1403,
+        "coverage": 0.9157963446475196,
+        "error_rate": 0.3549536707056308
+      },
+      {
+        "threshold": 0.7,
+        "n": 951,
+        "coverage": 0.6207571801566579,
+        "error_rate": 0.29547844374342797
+      },
+      {
+        "threshold": 0.9,
+        "n": 111,
+        "coverage": 0.07245430809399478,
+        "error_rate": 0.2702702702702703
+      },
+      {
+        "threshold": 0.95,
+        "n": 5,
+        "coverage": 0.0032637075718015664,
+        "error_rate": 0.2
+      }
+    ],
+    "probability_count": 1532,
+    "renormalized_probability_count": 393,
+    "latency_count": 1532,
+    "latency_p50_s": 0.28125918796285987,
+    "latency_p95_s": 0.5932022500783205,
+    "event_brier": 0.23329986047202994,
+    "raw_event_brier": 0.2332987287924282
+  },
+  "laya-english": {
+    "total": 1532,
+    "attempted": 1532,
+    "valid_latest": 1532,
+    "attempt_count": 1532,
+    "failed_attempts": 0,
+    "correct": 1009,
+    "accuracy": 0.6586161879895561,
+    "first_attempt_accuracy": 0.6586161879895561,
+    "macro_group_accuracy": 0.6618893861101867,
+    "majority_baseline": 0.5783289817232375,
+    "class_recall": {
+      "supported": 0.6640866873065016,
+      "unsupported": 0.654627539503386
+    },
+    "prediction_counts": {
+      "Correct": 735,
+      "Incorrect": 208,
+      "Unknown": 589
+    },
+    "multiclass_brier": 0.504982123524583,
+    "clipped_nll": 0.7766833560144744,
+    "zero_target_probability_count": 0,
+    "ece_10_bins": 0.1771117319789221,
+    "calibration_bins": [
+      {
+        "low": 0.0,
+        "high": 0.1,
+        "n": 0,
+        "mean_probability": null,
+        "accuracy": null
+      },
+      {
+        "low": 0.1,
+        "high": 0.2,
+        "n": 0,
+        "mean_probability": null,
+        "accuracy": null
+      },
+      {
+        "low": 0.2,
+        "high": 0.3,
+        "n": 0,
+        "mean_probability": null,
+        "accuracy": null
+      },
+      {
+        "low": 0.3,
+        "high": 0.4,
+        "n": 4,
+        "mean_probability": 0.3780932793279328,
+        "accuracy": 0.75
+      },
+      {
+        "low": 0.4,
+        "high": 0.5,
+        "n": 38,
+        "mean_probability": 0.46782834224512554,
+        "accuracy": 0.3684210526315789
+      },
+      {
+        "low": 0.5,
+        "high": 0.6,
+        "n": 72,
+        "mean_probability": 0.5573096623610133,
+        "accuracy": 0.5416666666666666
+      },
+      {
+        "low": 0.6,
+        "high": 0.7,
+        "n": 152,
+        "mean_probability": 0.6531523966609253,
+        "accuracy": 0.5657894736842105
+      },
+      {
+        "low": 0.7,
+        "high": 0.8,
+        "n": 211,
+        "mean_probability": 0.7516544000759089,
+        "accuracy": 0.5829383886255924
+      },
+      {
+        "low": 0.8,
+        "high": 0.9,
+        "n": 393,
+        "mean_probability": 0.8544777878863274,
+        "accuracy": 0.6615776081424937
+      },
+      {
+        "low": 0.9,
+        "high": 1.0,
+        "n": 662,
+        "mean_probability": 0.9429845324258438,
+        "accuracy": 0.7311178247734139
+      }
+    ],
+    "selective_risk": [
+      {
+        "threshold": 0,
+        "n": 1532,
+        "coverage": 1.0,
+        "error_rate": 0.3413838120104439
+      },
+      {
+        "threshold": 0.5,
+        "n": 1490,
+        "coverage": 0.9725848563968669,
+        "error_rate": 0.33422818791946307
+      },
+      {
+        "threshold": 0.7,
+        "n": 1266,
+        "coverage": 0.8263707571801566,
+        "error_rate": 0.31516587677725116
+      },
+      {
+        "threshold": 0.9,
+        "n": 662,
+        "coverage": 0.4321148825065274,
+        "error_rate": 0.2688821752265861
+      },
+      {
+        "threshold": 0.95,
+        "n": 275,
+        "coverage": 0.17950391644908617,
+        "error_rate": 0.24
+      }
+    ],
+    "probability_count": 1532,
+    "renormalized_probability_count": 388,
+    "latency_count": 985,
+    "latency_p50_s": 1.0164205830078572,
+    "latency_p95_s": 2.5931093331892043,
+    "event_brier": 0.2524910617622915,
+    "raw_event_brier": 0.25249273983681464
+  }
+}

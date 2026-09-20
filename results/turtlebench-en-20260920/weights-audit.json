@@ -1,0 +1,23 @@
+{
+  "english": {
+    "revision": "1c5edc17a7acd8701df6fc341c0d179f1c62c982",
+    "sha256": "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c",
+    "size_bytes": 842609210,
+    "stored_elements_including_buffers": 421293830,
+    "dtypes": {
+      "F16": 421293827,
+      "F32": 3
+    },
+    "source": "https://huggingface.co/convaiinnovations/laya/resolve/1c5edc17a7acd8701df6fc341c0d179f1c62c982/model.safetensors"
+  },
+  "typed-decisions": {
+    "revision": "1c5edc17a7acd8701df6fc341c0d179f1c62c982",
+    "sha256": "4fa56de72383a9d3efa9cfa78955733c81b9fc8067a587ca4beb82c78107a24e",
+    "size_bytes": 842609220,
+    "stored_elements_including_buffers": 421293830,
+    "dtypes": {
+      "F16": 421293830
+    },
+    "source": "https://huggingface.co/convaiinnovations/laya/resolve/1c5edc17a7acd8701df6fc341c0d179f1c62c982/typed-decisions/model.safetensors"
+  }
+}

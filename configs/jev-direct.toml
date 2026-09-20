@@ -1,0 +1,5 @@
+adapter = "typesafe"
+model = "jev-1.13.0"
+key_env = "TYPESAFE_API_KEY"
+timeout = 45
+# Requires this version to remain available on your account; not the route used in the reference study.

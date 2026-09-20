@@ -1,0 +1,16 @@
+{
+  "kind": "historical exploratory study; imported, not rerun by this new harness",
+  "study_date": "2026-09-20",
+  "task_hash": "a31a36dad8c6901ca9915f328ba755bf06bb35eb0ecaa22fbcafc64f805eb219",
+  "dataset_revision": "6547a5f0cb7097292b900b256d5e824a280acd33",
+  "laya_revision": "1c5edc17a7acd8701df6fc341c0d179f1c62c982",
+  "jev_requested_and_returned": "typesafe-ai/jev",
+  "jev_backend_revision": null,
+  "jev_route": "Vercel AI Gateway",
+  "jev_concurrency": "probe 1; main 4; remaining 127 cases serial",
+  "laya_platform": "Apple M1, float32, official full weights; no quantization",
+  "laya_english_execution": "1-550 MPS (restart after 406); 551-985 CPU single; 986-1532 CPU batch 4",
+  "parity": "12 CPU/MPS and 16 batch/single probes: same choices and SDK-rounded probabilities",
+  "timing_comparable": false,
+  "note": "Accuracy comparison. Unknown and Incorrect merged. English transfer test is not typed-decisions claim replication."
+}

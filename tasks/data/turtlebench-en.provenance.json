@@ -1,0 +1,11 @@
+{
+  "upstream": "https://github.com/mazzzystar/TurtleBench",
+  "revision": "6547a5f0cb7097292b900b256d5e824a280acd33",
+  "language": "en",
+  "sha256": {
+    "stories.json": "3424df9cab82d38b628ba76356e60660ff396632238fd43c8292572333ed4568",
+    "cases.list": "cb6ceded77b38e62acbbf28ddb11cbcaa79ee98b5ad341c482a3be44d2685e10"
+  },
+  "modifications": "Normalized to JSONL; compact state rendering; T/F/N renamed in zh; no relabeling.",
+  "license": "Apache-2.0; see LICENSES/TurtleBench.txt and NOTICE"
+}

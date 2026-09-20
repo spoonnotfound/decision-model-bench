@@ -1,0 +1,20 @@
+name: tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  core:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install -e '.[dev]'
+      - run: ruff check src tests scripts
+      - run: pytest -q
+      - run: dmb validate --task tasks/turtlebench-en.json
+      - run: dmb score --task tasks/turtlebench-en.json --records results/turtlebench-en-20260920/jev.jsonl

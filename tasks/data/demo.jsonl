@@ -1,0 +1,6 @@
+{"id":"billing-1","group":"billing","state":"I was charged twice for the same invoice. Please refund one payment.","target":"Billing"}
+{"id":"billing-2","group":"billing","state":"Where can I download my tax invoice?","target":"Billing"}
+{"id":"technical-1","group":"technical","state":"The app crashes every time I open the settings page.","target":"Technical"}
+{"id":"technical-2","group":"technical","state":"My saved documents fail to load with error 500.","target":"Technical"}
+{"id":"other-1","group":"other","state":"Where can I apply for a job at your company?","target":"Other"}
+{"id":"other-2","group":"other","state":"May I interview your founder for a magazine?","target":"Other"}

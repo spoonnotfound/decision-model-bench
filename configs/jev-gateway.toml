@@ -1,0 +1,4 @@
+adapter = "gateway"
+model = "typesafe-ai/jev"
+bridge = "../bridge/gateway.mjs"
+timeout = 60

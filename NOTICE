@@ -1,0 +1,13 @@
+Decision Model Bench
+Copyright 2026 Decision Model Bench contributors
+
+The normalized TurtleBench dataset is derived from:
+https://github.com/mazzzystar/TurtleBench
+Revision: 6547a5f0cb7097292b900b256d5e824a280acd33
+Copyright 2023-2024 IAAR, Shanghai
+Licensed under Apache-2.0. See LICENSES/TurtleBench.txt.
+Changes: JSONL normalization, compact state rendering, stable IDs and original label mapping.
+The source data and labeling were not authored by Decision Model Bench contributors.
+
+Laya and model/API SDKs are optional dependencies with their own licenses.
+Design references are acknowledged in README.md. No affiliation or endorsement is implied.

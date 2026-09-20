@@ -1,0 +1,2 @@
+adapter = "baseline"
+# Uses the first option unless choice is explicitly set. Not a model result.

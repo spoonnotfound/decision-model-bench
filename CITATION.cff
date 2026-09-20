@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the dataset paper and model sources as well as this evaluation implementation."
+title: "Decision Model Bench"
+type: software
+authors:
+  - name: "Decision Model Bench contributors"
+version: 0.1.0
+license: Apache-2.0
+repository-code: "https://github.com/spoonnotfound/decision-model-bench"

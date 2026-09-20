@@ -1,0 +1,17 @@
+{
+  "id": "turtlebench-en-compact-v1",
+  "data": "data/turtlebench-en.jsonl",
+  "question": {
+    "type": "choice",
+    "instructions": "Judge whether the player guess is correct using only the surface and bottom story. Do not invent missing facts. Evaluate the whole proposition, including negation.",
+    "criteria": {
+      "Correct": "The guess is supported by the story or necessarily follows from it.",
+      "Incorrect": "The guess contradicts the story.",
+      "Unknown": "The story neither supports nor contradicts the guess; there is insufficient information."
+    }
+  },
+  "label_groups": {"Correct": "supported", "Incorrect": "unsupported", "Unknown": "unsupported"},
+  "positive_group": "supported",
+  "probability_sum_tolerance": 0.011,
+  "notes": "Select among 3 labels, THEN merge Incorrect/Unknown for scoring. This does not evaluate their distinction. The dataset is curated hard cases, not a random sample of normal gameplay."
+}

@@ -1,0 +1,5 @@
+adapter = "laya"
+model = "convaiinnovations/laya"
+revision = "1c5edc17a7acd8701df6fc341c0d179f1c62c982"
+device = "cpu"
+threads = 4

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "decision-model-bench"
+version = "0.1.0"
+description = "Reproducible, probability-aware evaluation for discrete decision models"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+readme = "README.md"
+authors = [{name = "spoonnotfound"}]
+dependencies = []
+
+[project.optional-dependencies]
+laya = ["laya==0.3.4", "torch>=2.6,<3", "transformers>=4.45,<6"]
+dev = ["pytest>=8,<10", "ruff>=0.9"]
+
+[project.scripts]
+dmb = "decision_model_bench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110

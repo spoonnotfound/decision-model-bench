@@ -1,0 +1,10 @@
+{
+  "id": "routing-smoke-v1",
+  "data": "data/demo.jsonl",
+  "question": {
+    "type": "choice",
+    "instructions": "Choose the team that should handle this support request.",
+    "criteria": {"Billing": "Payments, invoices, refunds", "Technical": "Product errors or broken functionality", "Other": "Requests outside billing and technical support"}
+  },
+  "notes": "Hand-written plumbing smoke test, not a meaningful model leaderboard."
+}

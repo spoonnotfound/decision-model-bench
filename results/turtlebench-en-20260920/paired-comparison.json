@@ -1,0 +1,11 @@
+{
+  "difference_left_minus_right": 0.22389033942558748,
+  "interval_95": [
+    0.17292126563649743,
+    0.28173374613003094
+  ],
+  "resampling_unit": "case.group",
+  "groups": 32,
+  "repeats": 2000,
+  "seed": 20260920
+}
